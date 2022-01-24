@@ -1,0 +1,82 @@
+/* D E S I G N - E L E M E N T S */
+
+/* *** Potential Fonts ***
+
+The Nautigal
+Cinzel
+Tangerine
+Nothing You Could Do
+
+
+*** Potential Color Palette ***
+
+- Teals, blues?
+*/
+
+/* U N I V E R S A L - S E C T I O N */
+
+* {
+    text-align: center;
+}
+
+/* T I T L E - A N D - N A V I G A T I O N - B A R */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    display: none;
+}
+
+i.fas.fa-bars {
+    display: flex;
+    display: flex-end;
+    text-align: right;
+    padding: 0px 15px;
+}
+
+i.fab.fa-pagelines {
+    font-size: 52px;
+    padding: 20px;
+}
+
+/* M A I N - S E C T I O N S */
+
+/* Icons for Skills Section */
+
+i.fas.fa-code {
+    font-size: 32px;
+}
+
+i.fas.fa-terminal {
+    font-size: 32px;
+}
+
+i.fas.fa-project-diagram {
+    font-size: 32px;
+}
+
+i.fas.fa-universal-access {
+    font-size: 32px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.narrow {
+    padding: 0px 80px;
+}

@@ -1,0 +1,39 @@
+/*
+*************
+T A B L E T
+*************
+*/
+
+@media only screen and (min-width: 768px) {
+}
+
+/*
+*************
+D E S K T O P
+*************
+*/
+
+@media only screen and (min-width: 1024px) {
+
+    nav {
+        display: grid;
+        grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: start;
+        align-items: center;
+        gap: 15px;
+    }
+
+    nav li {
+        display: grid;
+    }
+
+    i.fas.fa-bars {
+        display: none;
+    }
+
+    i.fab.fa-pagelines {
+        font-size: 52px;
+        padding: 20px;
+    }
+}
