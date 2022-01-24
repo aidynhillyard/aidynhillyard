@@ -19,6 +19,9 @@
 
     <!-- RESPONSIVE CSS -->
     <link rel="stylesheet" href="responsive.css" type="text/css" media="all"/>
+
+    <!-- JAVASCRIPT -->
+    
 </head>
 <body>
     
@@ -28,23 +31,25 @@
     <div id="home-section">
         <div id="full-nav-bar">
             <nav>
-                <i class="fab fa-pagelines"></i>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
-                <i class="fas fa-bars fa-2x"></i>
+                <a id="logo-placeholder" href="#home-section"><i class="fab fa-pagelines"></i></a>
+                <!-- Navagation Links are default hidden -->
+                    <li class="list-nav-links"><a class="nav-links" href="#home-section">Home</a></li >
+                    <li class="list-nav-links"><a class="nav-links" href="about-me-section">About Me</a></li>
+                    <li class="list-nav-links"><a class="nav-links" href="skills-section">Skills</a></li>
+                    <li class="list-nav-links"><a class="nav-links" href="projects-section">Projects</a></li>
+                    <li class="list-nav-links"><a class="nav-links" href="contact-me-section">Contact</a></li>
+                    <a id="hamburger-link" href="#hamburger-icon" onclick="hamburgerMenuClick() "><i id="hamburger-icon" class="fas fa-bars fa-2x hamburger"></i></a>
             </nav>
         </div>
-    </div>
-
+    
+       
+    
 <!-- MAIN SECTIONS -->
     <!-- HOME -->
     <!-- Inside div home we'll have the background image -->
-    <h1>Aidyn Hillyard</h1>
-    <h3>Full-Stack Developer and Accessibility Expert</h3>
-
+        <h1>Aidyn Hillyard</h1>
+        <h3>Full-Stack Developer and Accessibility Expert</h3>
+    </div>
     <!-- ABOUT ME -->
     <!-- "More About Me" Possibilities -->
  <!-- 
@@ -96,7 +101,13 @@
     <!-- Button links to my email with the subject pre-filled -->
     <button id="email-me">Let's collaborate</button>
     </div>
-   
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="app.js" charset="utf-8"></script>
+      <script>const hamburgerMenuClick = function(event) {
+        $('.list-nav-links').toggle();
+      }</script>
 </body>
 <footer>
     <!-- Social Media Icons for GitHub, LinkedIn, and email -->
