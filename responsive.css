@@ -85,11 +85,9 @@ D E S K T O P
     }
 
     .list-nav-links {
-        /* height: 100px; */
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* align-items: flex-end; */
         top: 10px;
         position: absolute;
     }
@@ -194,5 +192,22 @@ D E S K T O P
     #project3 {
         grid-column: 3 / 4;
         grid-row: 1 / 4;
+    }
+
+    /* Footer */
+
+    #social-media-icons {
+        justify-content: center;
+        margin: 0px 400px;
+    }
+
+    .fa-github {
+        padding: 0px 20px;
+    }
+    .fa-linkedin {
+        padding: 0px 20px;
+    }
+    .fa-envelope {
+        padding: 0px 20px;
     }
 }

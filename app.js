@@ -8,7 +8,7 @@ const hamburgerMenuClick = function(event) {
     $('.list-nav-links').toggle();
 }
 
-$('.list-nav-links').on('click', hamburgerMenuClick);
+$('.list-nav.-links').on('click', hamburgerMenuClick);
 
 
 

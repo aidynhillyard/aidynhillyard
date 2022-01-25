@@ -40,8 +40,8 @@ div {
 #home-section {
     background-image: 
         linear-gradient(rgba(
-        0, 0, 0, 0.7), rgba(
-        0, 0, 0, 0.7)), url('https://images2.imgbox.com/52/d0/D9Swwk9c_o.jpg');
+        0, 0, 0, 0.6), rgba(
+        0, 0, 0, 0.6)), url('https://images2.imgbox.com/52/d0/D9Swwk9c_o.jpg');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -289,8 +289,33 @@ footer {
     background-color: #203335;
     color: #B2BEAB;
     padding-top: 4vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-bottom: 4vh;
+}
+
+/* Social Media Icons */
+
+#social-media-icons {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-bottom: 4vh;
+    padding-bottom: 3vh;
+    /* padding-left: 10vh;
+    padding-right: 10vh; */
+}
+
+.fa-github {
+    padding: 0px 20px;
+}
+.fa-linkedin {
+    padding: 0px 20px;
+}
+.fa-envelope {
+    padding: 0px 20px;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
 }

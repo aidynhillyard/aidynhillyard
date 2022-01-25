@@ -82,14 +82,14 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
+| Hamburger | H | 1hr | 5hr |
 | Project Previews | H | 1hr | 0.5hr |
-| Regular Nav | H | 3hr | hr |  
+| Regular Nav | H | 3hr | 3hr |  
 | Text Content | H | 3hr|  2hr | 
-| Other Sections and Flex| M | 3hr | hr|
+| Other Sections and Flex| M | 3hr | 2hr|
 | Skill Icons | H | 2hrs| 1hr | 
 | Responsive | H | 3hr | 2hr |
-| Social Media Icons | L | 1hr |  hr |
+| Social Media Icons | L | 1hr |  1hr |
 | Total | H | 19hrs| hrs |
 
 #### PostMVP
@@ -103,7 +103,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Total | H | 17hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ - FontAwesome: used for hamburger menu and icons for Skills Section
+ - Social Icons by Torleif Halseth: [link](https://codepen.io/thalseth/pen/saqIj). I tried using the regular Font Awesome library but could not get the icons to display. Somehow, using the direct HMTL from this CodePen (with my own CSS) worked.
 
 ## Code Snippet
 
