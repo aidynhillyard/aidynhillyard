@@ -40,19 +40,24 @@ D E S K T O P
 
     /* Nav Area */
 
-    nav {
+    /* nav {
         display: grid;
         grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         justify-items: start;
         align-items: center;
-        /* gap: 15px; */
-    }
+        /* gap: 15px;
+    } */
 
-    .list-nav-links {
+    #just-the-links {
         display: grid;
         grid-template-columns: repeat(5 1fr);
         grid-template-rows: 1fr;
+    }
+
+    .list-nav-links {
+        display: flex;
+        justify-content: flex-end;
     }
 
     li {
