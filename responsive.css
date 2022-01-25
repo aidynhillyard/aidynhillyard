@@ -28,7 +28,7 @@ D E S K T O P
         /* gap: 15px; */
     }
 
-    nav li {
+    li {
         display: grid;
     }
 
@@ -47,5 +47,6 @@ D E S K T O P
         align-content: center;
         align-self: center;
         justify-content: center;
+        font-size: 64px;
     }
 }
