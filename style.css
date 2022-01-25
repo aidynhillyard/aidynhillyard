@@ -18,7 +18,8 @@ Nothing You Could Do
 
 * {
     text-align: center;
-    margin: 0 0;  
+    margin: 0 0;
+    font-family: 'Dosis', sans-serif;
 }
 
 #logo-placeholder {
@@ -149,6 +150,8 @@ i.fas.fa-universal-access {
 }
 
 h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 64px;
     text-align: center;
     padding: 110px 0px 10px 0px;
 }
