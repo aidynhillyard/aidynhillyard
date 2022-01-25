@@ -60,7 +60,7 @@ div {
     text-align: right;
     font-size: 20px;
     /* Adjust this number to change shaded height of nav links */
-    height: 4.425vh;
+    height: 6.425vh;
     margin: 0px 25px;
     display: none;
 }
@@ -121,7 +121,7 @@ h1 {
     font-family: 'Cinzel Decorative', cursive;
     font-size: 38px;
     text-align: center;
-    padding: 110px 0px 10px 0px;
+    padding: 130px 0px 5px 0px;
 }
 
 h2 {
@@ -152,6 +152,10 @@ ul {
     position: absolute;
     width: 100%;
     z-index: 1;
+}
+
+#one-line-brand {
+    padding: 5px 0px 0px 0px;
 }
 
 /* About Me Section */
