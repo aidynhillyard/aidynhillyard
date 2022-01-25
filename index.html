@@ -30,16 +30,18 @@
 <!-- TITLE AND NAVIGATION BAR  -->
     <div id="home-section">
         <div id="full-nav-bar">
-            <nav>
+            <nav id="icon-holder">
                 <a id="logo-placeholder" href="#home-section"><i class="fab fa-pagelines"></i></a>
                 <!-- Navagation Links are default hidden -->
-                    <li class="list-nav-links"><a class="nav-links" href="#home-section">Home</a></li >
-                    <li class="list-nav-links"><a class="nav-links" href="about-me-section">About Me</a></li>
-                    <li class="list-nav-links"><a class="nav-links" href="skills-section">Skills</a></li>
-                    <li class="list-nav-links"><a class="nav-links" href="projects-section">Projects</a></li>
-                    <li class="list-nav-links"><a class="nav-links" href="contact-me-section">Contact</a></li>
-                    <a id="hamburger-link" href="#hamburger-icon" onclick="hamburgerMenuClick() "><i id="hamburger-icon" class="fas fa-bars fa-2x hamburger"></i></a>
+                <a id="hamburger-link" href="#hamburger-icon" onclick="hamburgerMenuClick() "><i id="hamburger-icon" class="fas fa-bars fa-2x hamburger"></i></a>
             </nav>
+            <div id="just-the-links">
+                <li class="list-nav-links"><a class="nav-links" href="#home-section">Home</a></li >
+                <li class="list-nav-links"><a class="nav-links" href="about-me-section">About Me</a></li>
+                <li class="list-nav-links"><a class="nav-links" href="skills-section">Skills</a></li>
+                <li class="list-nav-links"><a class="nav-links" href="projects-section">Projects</a></li>
+                <li class="list-nav-links"><a class="nav-links" href="contact-me-section">Contact</a></li>
+            </div>
         </div>
     
        
@@ -47,8 +49,10 @@
 <!-- MAIN SECTIONS -->
     <!-- HOME -->
     <!-- Inside div home we'll have the background image -->
-        <h1>Aidyn Hillyard</h1>
-        <h3>Full-Stack Developer and Accessibility Expert</h3>
+        <div id="name-and-tagline">
+            <h1>Aidyn Hillyard</h1>
+            <h3>Full-Stack Developer and Accessibility Expert</h3>
+        </div>
     </div>
     <!-- ABOUT ME -->
     <!-- "More About Me" Possibilities -->
@@ -108,6 +112,8 @@
       <script>const hamburgerMenuClick = function(event) {
         $('.list-nav-links').toggle();
       }</script>
+
+      
 </body>
 <footer>
     <!-- Social Media Icons for GitHub, LinkedIn, and email -->
