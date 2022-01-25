@@ -8,9 +8,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1 (Mon., Jan. 24)| Project Description | Incomplete
-|Day 1 (Mon., Jan. 24)| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 2 (Tues., Jan. 25)| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 1 (Mon., Jan. 24)| Project Description | Complete
+|Day 1 (Mon., Jan. 24)| Wireframes / Priority Matrix / Timeline | Complete
+|Day 2 (Tues., Jan. 25)| Core Application Structure (HTML, CSS, etc.) | In Progress
 |Day 3 (Wed., Jan. 26)| MVP & Bug Fixes | Incomplete
 |Day 4 (Thurs., Jan. 27)| Final Touches | Incomplete
 |Day 5 (Fri., Jan. 28)| Present | Incomplete
@@ -29,13 +29,13 @@ Link To Site  | Things I Like and Might Want to Incorporate |
 
 My portfolio will feature these sections: about me, skills, projects, and contact me. About Me: This will contain my name and full brand statement. Skills: Skills will be divided into sections (Front-End, Back-End, and Equity), and will have an icon for each section and will display in text format.  Projects will have placeholder images that turn to an opaque background color at hoverover.  MVP for projects section is grid display with responsive design; Post-MVP is carousel.  Contact me will have a link to my email but not a full form.  Design style will include: 1. full-width image for top banner, 2. minimalistic style for all other sections (few images, 1-3 colors), 3. conversational tone of text sections.
 
-Questions to resolve:
-1. Should I use a picrew for an image of myself in the About Me section?
-2. How many columns should my Projects section contain in mobile, tablet, and desktop?
-3. Should my 3rd skills column be titled "Equity" or something else like "DEI" or "Accessibility"?
-4. What fonts should I use?
-5. Which image should I use for my "home" section?
-6. Should I include a "what people have said" section (e.g., like Joe Keohan)?
+MVP Questions to Resolve:
+1. Should my 3rd skills column be titled "Equity" or something else like "DEI" or "Accessibility"?
+2. Should I include a "what people have said" section (e.g., like Joe Keohan)?
+
+Post-MVP Questions to Resolve:
+1. Should I stick with my current fonts or change them?
+2. Should I use a picrew for an image of myself in the About Me section?
 
 ## Wireframes
 
@@ -72,33 +72,35 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP 
 
 - Animation for project placeholders
+- Interesting shapes between divs
 - Carousel for projects
 - Make own logo
 
-## Functional Components
 
+## Functional Components
 
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Hamburger | H | 1hr | hr |
-| Project Previews | H | 1hr | hr |
+| Project Previews | H | 1hr | 0.5hr |
 | Regular Nav | H | 3hr | hr |  
-| Text Content | H | 3hr|  hr | 
+| Text Content | H | 3hr|  2hr | 
 | Other Sections and Flex| M | 3hr | hr|
-| Skill Icons | H | 2hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
+| Skill Icons | H | 2hrs| 1hr | 
+| Responsive | H | 3hr | 2hr |
 | Social Media Icons | L | 1hr |  hr |
 | Total | H | 19hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Animations on hover | M | 3hr | hr | hr |
-| Project Carousel | M | 3hr | hr | hr |
+| Project Animations on hover | M | 3hr | hr |
+| Interesting shapes between divs | L | 3hr | hr |
+| Project Carousel | M | 3hr | hr |
 | Bootstrap | H | 4hr | hr |
 | Make Own Logo | L | 4hr | hr |
-| Total | H | 11hrs| hrs |
+| Total | H | 17hrs| hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
