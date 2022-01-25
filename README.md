@@ -16,3 +16,6 @@ I used this guide from StackOverflow (from users Ajay and Khaled Al-Ansari) to s
 
 ### Case 5: Hamburger Nav Area
 When I ran into difficulty with getting my hamburger nav to expand vertically, I received brainstorming and bug-squashing help from Matt Powell and Taylor Polli Overturf.  Matt helped me figure out how to move my links to accomplish the styling I needed, and Taylor introduced me to the "viewport height" styling, which I implemented in other sections.
+
+### Case 6: Jquery hide/show overlay
+I used jquery documentation to explore the hide/show methods: [link](https://api.jquery.com/show/).  I also used W3 Schools' example of the hover method: [link](https://www.w3schools.com/jquery/jquery_events.asp).

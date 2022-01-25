@@ -223,6 +223,10 @@ li.skills-list {
     text-decoration: none;
 }
 
+#idi:hover {
+    color: #B2BEAB;
+}
+
 /* Icons for Skills Section */
 
 i.fas.fa-code {
@@ -254,6 +258,21 @@ i.fas.fa-universal-access {
 #projects-section {
     padding-top: 5vh;
     padding-bottom: 5vh;
+}
+
+#img-project1 {
+
+}
+
+#img-project1-overlay {
+    width: 300px;
+    height: 200px;
+    background-color: #335257;
+    z-index: 1;
+    opacity: 0.5;
+    position: fixed;
+    top: 0.5em;
+    display: none;
 }
 
 /* Contact Me Section */
@@ -289,9 +308,6 @@ footer {
     background-color: #203335;
     color: #B2BEAB;
     padding-top: 4vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     padding-bottom: 4vh;
 }
 
@@ -301,8 +317,6 @@ footer {
     display: flex;
     justify-content: center;
     padding-bottom: 3vh;
-    /* padding-left: 10vh;
-    padding-right: 10vh; */
 }
 
 .fa-github {
