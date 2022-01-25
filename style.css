@@ -127,15 +127,21 @@ h1 {
 h2 {
     text-align: center;
     font-size: 30px;
+    color: #B2BEAB;
 }
 
 h3 {
     text-align: center;
+    font-size: 24px;
     padding: 25px;
 }
 
 .narrow {
-    padding: 10px 80px;
+    padding: 10px 100px;
+}
+
+ul {
+    padding: 0;
 }
 
 /* Home Section */
@@ -155,18 +161,25 @@ h3 {
 }
 
 .brand-statement {
-    padding: 20px;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
 }
 
 /* Skills Section */
 
 #skills-section {
-    padding-top: 6vh;
+    background-color: #335257;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .skill-heading {
     padding: 10px;
     color: #B2BEAB;
+}
+
+li.skills-list {
+    text-align: center;
 }
 
 #skill-grid {
@@ -179,21 +192,30 @@ h3 {
 #front-end {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
+    background-color: #335257;
 }
 
 #back-end {
     grid-column: 1 / 5;
     grid-row: 2 / 3;
+    background-color: #335257;
 }
 
 #project-management {
     grid-column: 1 / 5;
     grid-row: 3 / 4;
+    background-color: #335257;
 }
 
 #accessibility {
     grid-column: 1 / 5;
     grid-row: 4 / 5;
+    background-color: #335257;
+}
+
+#idi {
+    color: white;
+    text-decoration: none;
 }
 
 /* Icons for Skills Section */
@@ -226,20 +248,39 @@ i.fas.fa-universal-access {
 
 #projects-section {
     padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 /* Contact Me Section */
 
 #contact-me-section {
+    background-color: #335257;
     padding-top: 5vh;
+    padding-bottom: 6vh;
 }
 
 .contact-me {
-    padding: 20px;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    margin: 0px 0px 15px 0px;
 }
 
-#email-me {
+.button {
     background-color: #B2BEAB;
     padding: 10px;
     border-radius: 20px;
+    text-decoration: none;
+    color: #203335;
+}
+
+/* Footer */
+
+footer {
+    background-color: #203335;
+    color: #B2BEAB;
+    padding-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4vh;
 }

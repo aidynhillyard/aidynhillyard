@@ -28,6 +28,30 @@ T A B L E T
         grid-row: 3 / 5;
     }
 
+    /* Projects Section */
+
+    #projects-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        align-self: start;
+    }
+
+    #project1 {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+    }
+
+    #project2 {
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+    }
+
+    #project3 {
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+    }
+
 }
 
 /*
@@ -116,5 +140,40 @@ D E S K T O P
     #accessibility {
         grid-column: 4 / 5;
         grid-row: 1 / 5;
+    }
+
+    /* Projects Section */
+
+    #projects-section {
+        padding-top: 80px;
+    }
+
+    #projects-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        align-self: start;
+        padding: 20px 0px 0px 0px;
+    }
+
+    #project1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 4;
+    }
+
+    #project2 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
+    }
+
+    #project3 {
+        grid-column: 3 / 4;
+        grid-row: 1 / 4;
+    }
+
+    /* Contact Me Section */
+
+    #contact-me-section {
+        padding: 80px;
     }
 }
