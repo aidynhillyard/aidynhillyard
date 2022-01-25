@@ -260,19 +260,19 @@ i.fas.fa-universal-access {
     padding-bottom: 5vh;
 }
 
-#img-project1 {
+/* #img-project1 {
 
-}
+} */
 
 #img-project1-overlay {
     width: 300px;
     height: 200px;
-    background-color: #335257;
+    background-color: white;
     z-index: 1;
     opacity: 0.5;
     position: fixed;
-    top: 0.5em;
-    display: none;
+    top: 1px;
+    /* display: none; */
 }
 
 /* Contact Me Section */
