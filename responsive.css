@@ -65,7 +65,6 @@ D E S K T O P
     /* Nav Area */
 
     i.fab.fa-pagelines {
-        font-size: 52px;
         margin: 0px 10px;
     }
 
@@ -99,10 +98,6 @@ D E S K T O P
     i.fas.fa-bars {
         display: none;
     }
-
-    i.fab.fa-pagelines {
-        font-size: 52px;
-    }
     
     /* Document-Wide */
 
@@ -112,7 +107,7 @@ D E S K T O P
         align-content: center;
         align-self: center;
         justify-content: center;
-        font-size: 64px;
+        font-size: 3.2em;
         padding: 190px 0px 0px 0px;
     }
 

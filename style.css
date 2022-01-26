@@ -3,7 +3,7 @@
 /* *** Fonts ***
 
     H1: Cormorant Unicase
-    Body: Heebo
+    Body: Quicksand
 */
 
 
@@ -26,11 +26,21 @@
 
 /* U N I V E R S A L - S E C T I O N */
 
+html {
+    font-size: 125%
+}
+
+body {
+    font-size: 1em;
+}
+
+h1 {}
+
 * {
     text-align: center;
     margin: 0 0;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 #logo-placeholder {
@@ -72,7 +82,7 @@ div {
 
 .list-nav-links {
     text-align: right;
-    font-size: 20px;
+    font-size: 1em;
     /* Adjust this number to change shaded height of nav links */
     height: 6vh;
     margin: 0px 25px;
@@ -150,7 +160,7 @@ li {
 }
 
 i.fab.fa-pagelines {
-    font-size: 52px;
+    font-size: 2.6em;
     padding-top: 1vh;
     padding-bottom: 1vh;
     padding: 0px 20px;
@@ -160,20 +170,20 @@ i.fab.fa-pagelines {
 
 h1 {
     font-family: 'Cormorant Unicase', serif;
-    font-size: 38px;
+    font-size: 1.9em;
     text-align: center;
     padding: 130px 0px 5px 0px;
 }
 
 h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.5em;
     color: #99B095;
 }
 
 h3 {
     text-align: center;
-    font-size: 24px;
+    font-size: 1.2em;
     padding: 25px;
 }
 
@@ -270,25 +280,25 @@ li.skills-list {
 /* Icons for Skills Section */
 
 i.fas.fa-code {
-    font-size: 32px;
+    font-size: 1.6em;
     padding-top: 5vh;
     color: #99B095;
 }
 
 i.fas.fa-terminal {
-    font-size: 32px;
+    font-size: 1.6em;
     padding-top: 5vh;
     color: #99B095;
 }
 
 i.fas.fa-project-diagram {
-    font-size: 32px;
+    font-size: 1.6em;
     padding-top: 5vh;
     color: #99B095;
 }
 
 i.fas.fa-universal-access {
-    font-size: 32px;
+    font-size: 1.6em;
     padding-top: 5vh;
     color: #99B095;
 }
