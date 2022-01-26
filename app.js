@@ -92,5 +92,41 @@ function(){
 });
 
 
+// Smooth Scroll
+// Code from Stack Overflow: https://stackoverflow.com/questions/6677035/scroll-to-an-element-with-jquery
+
+        $(document).ready(function (){
+            $("#smooth-about-me").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#about-me-section").offset().top
+                }, 2000);
+            });
+        });
+
+        $(document).ready(function (){
+            $("#smooth-skills").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#skills-section").offset().top
+                }, 2000);
+            });
+        });
+
+        $(document).ready(function (){
+            $("#smooth-projects").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#projects-section").offset().top
+                }, 2000);
+            });
+        });
+
+        $(document).ready(function (){
+            $("#smooth-contact").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#contact-me-section").offset().top
+                }, 2000);
+            });
+        });
+    
+
 
 })
