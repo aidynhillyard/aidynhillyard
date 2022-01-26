@@ -172,7 +172,7 @@ ul {
     padding: 0;
 }
 
-/* Home Section */
+/* H O M E - S E C T I O N */
 
 #name-and-tagline {
     background-color: rgba(0, 0, 0, 0);
@@ -186,7 +186,7 @@ ul {
     padding: 5px 0px 0px 0px;
 }
 
-/* About Me Section */
+/* A B O U T - M E - S E C T I O N */
 
 #about-me-section {
     padding-top: 45vh;
@@ -197,7 +197,7 @@ ul {
     padding-bottom: 5vh;
 }
 
-/* Skills Section */
+/* S K I L L S - S E C T I O N */
 
 #skills-section {
     background-color: #335257;
@@ -280,7 +280,7 @@ i.fas.fa-universal-access {
     color: #B2BEAB;
 }
 
-/* Projects Section */
+/* P R O J E C T S - S E C T I O N */
 
 #projects-section {
     padding-top: 5vh;
@@ -288,11 +288,10 @@ i.fas.fa-universal-access {
 }
 
 #img-project1-overlay {
-    width: 300px;
-    height: 200px;
-    background-color: white;
+    width: 301px;
+    height: 201px;
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
-    opacity: 0.5;
     position: fixed;
     top: 10px;
     display: none;
@@ -305,11 +304,10 @@ i.fas.fa-universal-access {
 }
 
 #img-project2-overlay {
-    width: 300px;
-    height: 200px;
-    background-color: white;
+    width: 301px;
+    height: 201px;
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
-    opacity: 0.5;
     position: fixed;
     top: 10px;
     display: none;
@@ -322,11 +320,10 @@ i.fas.fa-universal-access {
 }
 
 #img-project3-overlay {
-    width: 300px;
-    height: 200px;
-    background-color: white;
+    width: 301px;
+    height: 201px;
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
-    opacity: 0.5;
     position: fixed;
     top: 10px;
     display: none;
@@ -338,7 +335,11 @@ i.fas.fa-universal-access {
     margin: auto;
 }
 
-/* Contact Me Section */
+.overlay-text {
+    padding-top: 5vh;
+}
+
+/* C O N T A C T - M E - S E C T I O N */
 
 #contact-me-section {
     background-color: #335257;
@@ -365,7 +366,7 @@ i.fas.fa-universal-access {
     opacity: 1;
 }
 
-/* Footer */
+/* F O O T E R */
 
 footer {
     background-color: #203335;
