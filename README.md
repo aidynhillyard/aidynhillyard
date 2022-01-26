@@ -24,4 +24,4 @@ I used this StackOverflow link to test jquery show/hide [link](https://stackover
 I followed this guide that Lauren Colvin linked in Slack to change the font size from px to em: [link](https://andy-carter.com/blog/using-scalable-css-units-for-font-sizes)
 
 ### Case 8: Smooth Scrolling to a Div
-I followed this guide from StackOverflow, answered by "Steve," edited by "melutovich": [link](https://stackoverflow.com/questions/6677035/scroll-to-an-element-with-jquery)
+I added jquery `.animate` to implement smooth scrolling using this guide from StackOverflow, answered by "Steve," edited by "melutovich": [link](https://stackoverflow.com/questions/6677035/scroll-to-an-element-with-jquery)
