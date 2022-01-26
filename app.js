@@ -16,41 +16,32 @@ $('.list-nav.-links').on('click', hamburgerMenuClick);
 // JQUERY HOVER OVER
 // *****************
 
-// Attempt from StackOverflow #1
+// *******************************************
+// Original Attempt with Nathaniel's Code, Too
+// *******************************************
 
-// Nathaniel's Solution
+// Log offset of img
+let img1 = $('#img-project1');
+console.log(img1.offset());
 
-// let img1 = $('#img-project1-overlay');
-// console.log(img1.offset());
+// Hover Over
 
-// $(document).ready(function() {
-//     $('img-project1').hover(function(){
-//         let overlay = $('#img-project1-overlay')
-//         overlay.show();
+$('#img-and-img-overlay1').hover(function(){
+    let overlay1 = $('#img-project1-overlay')
+    overlay1.show();
+    $('#img-project1-overlay').show();
+    console.log("You hovered over.")
 
-//         overlay.css('left', img1[0].x);
-//         overlay.css('top', img1[0].y)
-//         console.log("You hovered over.")
-//     },
-//     function(){
-//         $('#img-project-overlay').hide();
-//         console.log("You stopped hovering.")
-//     });
-// });
+    // Get x,y coordinates for img
+    overlay1.css('left', img1[0].x);
+    overlay1.css('top', img1[0].y);
+},
 
-
-// ****************
-// Original Attempt
-// ****************
-
-    $('#img-project1').hover(function(){
-        $('#img-project1-overlay').show();
-        console.log("You hovered over.")
-    },
-    function(){
-        $('#img-project1-overlay').hide();
-        console.log("You stopped hovering.")
-    });
+// Stop hovering (re-hide overlay)
+function(){
+    $('#img-project1-overlay').hide();
+    console.log("You stopped hovering.")
+});
 
 
 

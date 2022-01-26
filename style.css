@@ -287,10 +287,6 @@ i.fas.fa-universal-access {
     padding-bottom: 5vh;
 }
 
-/* #img-project1 {
-
-} */
-
 #img-project1-overlay {
     width: 300px;
     height: 200px;
@@ -300,6 +296,17 @@ i.fas.fa-universal-access {
     position: fixed;
     top: 10px;
     display: none;
+}
+
+#img-and-img-overlay1 {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+#img-project1 {
+    display: flex;
+    justify-content: center;
 }
 
 /* Contact Me Section */
