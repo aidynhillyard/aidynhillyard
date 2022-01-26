@@ -8,12 +8,21 @@ Tangerine
 Nothing You Could Do */
 
 
-/* *** Potential Color Palette ***
+/* *** Old Color Palette ***
     Dark Green: #203335 (Outer Space Crystals)
     Medium Green: #335257 (Dark Slate Gray)
     Light Green: #62977E (Russian Green)
     Lightest Green: #B2BEAB (Laurel Green)
     Dusky: #806F73 (Old Lavender)
+*/
+
+/* *** New Color Palette ***
+
+    Darkest: Charleston Green: #1C2C2E
+    Dark: Dark Slate Gray: #2A504C
+    Meduium: Dark Slate Gray: #326059
+    Light: Laurel Green: #99B095
+    Rosy Brown: #B18981 
 */
 
 /* U N I V E R S A L - S E C T I O N */
@@ -31,8 +40,13 @@ Nothing You Could Do */
 }
 
 div {
-    background-color: #203335;
+    background-color: #1A3534;
     color: white;
+}
+
+.succulent {
+    position: relative;
+    top: 40px;
 }
 
 /* T I T L E - A N D - N A V I G A T I O N - B A R */
@@ -40,8 +54,8 @@ div {
 #home-section {
     background-image: 
         linear-gradient(rgba(
-        0, 0, 0, 0.6), rgba(
-        0, 0, 0, 0.6)), url('https://images2.imgbox.com/52/d0/D9Swwk9c_o.jpg');
+        0, 0, 0, 0.5), rgba(
+        0, 0, 0, 0.5)), url('https://images2.imgbox.com/64/0a/bdtifdin_o.png');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -155,7 +169,7 @@ h1 {
 h2 {
     text-align: center;
     font-size: 30px;
-    color: #B2BEAB;
+    color: #99B095;
 }
 
 h3 {
@@ -200,14 +214,14 @@ ul {
 /* S K I L L S - S E C T I O N */
 
 #skills-section {
-    background-color: #335257;
+    background-color: #2A504C;
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
 
 .skill-heading {
     padding: 10px;
-    color: #B2BEAB;
+    color: #99B095;
 }
 
 li.skills-list {
@@ -224,25 +238,25 @@ li.skills-list {
 #front-end {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
-    background-color: #335257;
+    background-color: #2A504C;
 }
 
 #back-end {
     grid-column: 1 / 5;
     grid-row: 2 / 3;
-    background-color: #335257;
+    background-color: #2A504C;
 }
 
 #project-management {
     grid-column: 1 / 5;
     grid-row: 3 / 4;
-    background-color: #335257;
+    background-color: #2A504C;
 }
 
 #accessibility {
     grid-column: 1 / 5;
     grid-row: 4 / 5;
-    background-color: #335257;
+    background-color: #2A504C;
 }
 
 #idi {
@@ -251,7 +265,7 @@ li.skills-list {
 }
 
 #idi:hover {
-    color: #B2BEAB;
+    color: #99B095;
 }
 
 /* Icons for Skills Section */
@@ -259,25 +273,25 @@ li.skills-list {
 i.fas.fa-code {
     font-size: 32px;
     padding-top: 5vh;
-    color: #B2BEAB;
+    color: #99B095;
 }
 
 i.fas.fa-terminal {
     font-size: 32px;
     padding-top: 5vh;
-    color: #B2BEAB;
+    color: #99B095;
 }
 
 i.fas.fa-project-diagram {
     font-size: 32px;
     padding-top: 5vh;
-    color: #B2BEAB;
+    color: #99B095;
 }
 
 i.fas.fa-universal-access {
     font-size: 32px;
     padding-top: 5vh;
-    color: #B2BEAB;
+    color: #99B095;
 }
 
 /* P R O J E C T S - S E C T I O N */
@@ -342,7 +356,7 @@ i.fas.fa-universal-access {
 /* C O N T A C T - M E - S E C T I O N */
 
 #contact-me-section {
-    background-color: #335257;
+    background-color: #2A504C;
     padding-top: 5vh;
     padding-bottom: 6vh;
 }
@@ -354,11 +368,11 @@ i.fas.fa-universal-access {
 }
 
 .button {
-    background-color: #B2BEAB;
+    background-color: #99B095;
     padding: 10px;
     border-radius: 20px;
     text-decoration: none;
-    color: #203335;
+    color: #1A3534;
     opacity: 0.7;
 }
 
@@ -369,8 +383,8 @@ i.fas.fa-universal-access {
 /* F O O T E R */
 
 footer {
-    background-color: #203335;
-    color: #B2BEAB;
+    background-color: #1A3534;
+    color: #99B095;
     padding-top: 4vh;
     padding-bottom: 4vh;
 }
