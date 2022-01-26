@@ -89,12 +89,12 @@ D E S K T O P
         flex-direction: row;
         align-items: center;
         top: 10px;
-        position: absolute;
+        /* position: absolute; */
     }
 
     /* Padding Fix for Desktop Nav */
     
-    #desktop-home {
+    /* #desktop-home {
         padding: 0px 390px;
     }
 
@@ -112,7 +112,7 @@ D E S K T O P
 
     #desktop-contact {
         padding: 0px 10px;
-    }
+    } */
 
     i.fas.fa-bars {
         display: none;

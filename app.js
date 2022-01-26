@@ -18,43 +18,39 @@ $('.list-nav.-links').on('click', hamburgerMenuClick);
 
 // Attempt from StackOverflow #1
 
-$(document).ready(function() {
+// Nathaniel's Solution
+
+// let img1 = $('#img-project1-overlay');
+// console.log(img1.offset());
+
+// $(document).ready(function() {
+//     $('img-project1').hover(function(){
+//         let overlay = $('#img-project1-overlay')
+//         overlay.show();
+
+//         overlay.css('left', img1[0].x);
+//         overlay.css('top', img1[0].y)
+//         console.log("You hovered over.")
+//     },
+//     function(){
+//         $('#img-project-overlay').hide();
+//         console.log("You stopped hovering.")
+//     });
+// });
+
+
+// ****************
+// Original Attempt
+// ****************
+
     $('#img-project1').hover(function(){
-        $('#img.project1-overlay').show();
+        $('#img-project1-overlay').show();
         console.log("You hovered over.")
     },
     function(){
         $('#img-project1-overlay').hide();
         console.log("You stopped hovering.")
     });
-});
-
-// Attempt from StackOverlow #2
-// $(document).ready(function() {
-//     $('#img-project1').hover(function(){
-//         $(this).parent().children('#img-project-overlay1').animate ({
-//             opacity: "toggle",}
-//         );
-//     });
-// });
-
-// Attempt from Jquery Documentation
-// const showOverlay = function() {
-//     $('#img-project1').mouseover(function() {
-//         $('#img-project1-overlay').show();
-//     });
-// }
-
-// const hideOverlay = function() {
-//     $('#img-project1').mouseout(function() {
-//     $('#img-project1-overlay').hide();
-//     });
-// }
-
-//     $('#img-project1-overlay').on('mouseover', showOverlay);
-//     $('#img-project1-overlay').on('mouseout', hideOverlay)
-
-
 
 
 

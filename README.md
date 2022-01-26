@@ -18,4 +18,4 @@ I used this guide from StackOverflow (from users Ajay and Khaled Al-Ansari) to s
 When I ran into difficulty with getting my hamburger nav to expand vertically, I received brainstorming and bug-squashing help from Matt Powell and Taylor Polli Overturf.  Matt helped me figure out how to move my links to accomplish the styling I needed, and Taylor introduced me to the "viewport height" styling, which I implemented in other sections.
 
 ### Case 6: Jquery hide/show overlay
-I used jquery documentation to explore the hide/show methods: [link](https://api.jquery.com/show/).  I also used W3 Schools' example of the hover method: [link](https://www.w3schools.com/jquery/jquery_events.asp).
+I used this StackOverflow link to test jquery show/hide [link](https://stackoverflow.com/questions/15722997/jquery-mouseover-image-overlay/15724797), but I used hover instead of mouseover and also used both jquery documentation to explore the hide/show methods: [link](https://api.jquery.com/show/) and W3 Schools' example of the hover method: [link](https://www.w3schools.com/jquery/jquery_events.asp).

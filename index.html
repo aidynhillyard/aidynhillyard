@@ -38,17 +38,21 @@
 <!-- TITLE AND NAVIGATION BAR  -->
     <div id="home-section">
         <div id="full-nav-bar">
-            <nav id="icon-holder">
-                <a id="logo-placeholder" href="#home-section"><i class="fab fa-pagelines"></i></a>
-                <!-- Navagation Links are default hidden -->
+            <!-- This div should fix nav issues: need to style as grid and change grid properties in responsive.css -->
+            <div class="nav-grid">
+                <nav id="icon-holder">
+                    <a id="logo-placeholder" href="#home-section"><i class="fab fa-pagelines"></i></a>
+                </nav>
+                    <!-- Navagation Links are default hidden -->
                 <a id="hamburger-link" href="#hamburger-icon" onclick="hamburgerMenuClick() "><i id="hamburger-icon" class="fas fa-bars fa-2x hamburger"></i></a>
-            </nav>
-            <div id="just-the-links">
-                <li id="desktop-home" class="list-nav-links"><a class="nav-links" href="#home-section">Home</a></li >
-                <li id="desktop-about-me" class="list-nav-links"><a class="nav-links" href="#about-me-section">About Me</a></li>
-                <li id="desktop-skills" class="list-nav-links"><a class="nav-links" href="#skills-section">Skills</a></li>
-                <li id="desktop-projects" class="list-nav-links"><a class="nav-links" href="#projects-section">Projects</a></li>
-                <li id="desktop-contact" class="list-nav-links"><a class="nav-links" href="#contact-me-section">Contact</a></li>
+                
+                <div id="just-the-links">
+                    <li id="desktop-home" class="list-nav-links"><a class="nav-links" href="#home-section">Home</a></li>
+                    <li id="desktop-about-me" class="list-nav-links"><a class="nav-links" href="#about-me-section">About Me</a></li>
+                    <li id="desktop-skills" class="list-nav-links"><a class="nav-links" href="#skills-section">Skills</a></li>
+                    <li id="desktop-projects" class="list-nav-links"><a class="nav-links" href="#projects-section">Projects</a></li>
+                    <li id="desktop-contact" class="list-nav-links"><a class="nav-links" href="#contact-me-section">Contact</a></li>
+                </div>
             </div>
         </div>
     
@@ -63,19 +67,17 @@
         </div>
     </div>
     <!-- ABOUT ME -->
-    <!-- "More About Me" Possibilities -->
- <!-- 
+    <!-- 
      - Background in storytelling (BA in English Lit)
      - Deep skillset in interpersonal communication (MA in Counseling)
      - Passion for DEI (examples???)
-  -->
+    -->
     <div id="about-me-section">
         <h2>About Me</h2>
         <p class="narrow brand-statement">My brand statement goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
     <!-- SKILLS -->
-    <!-- Note: Placeholder text currently used; placeholder icon curently used. -->
     <div id="skills-section">
         <h2>Skills</h2>
         <div id="skill-grid">
@@ -142,7 +144,6 @@
     <div id="contact-me-section">
     <h2>Contact Me</h2>
     <p class="narrow contact-me">Want to see more of my projects or brainstorm how we can work together? I'd love to connect!</p>
-    <!-- Button links to my email with the subject pre-filled -->
     <a class="button" href="mailto:aidyn.hillyard@gmail.com?subject=AidynHillyard.com&body=Message">Let's collaborate</a>
     </div>
 
