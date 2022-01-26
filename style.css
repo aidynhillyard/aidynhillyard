@@ -1,11 +1,10 @@
 /* D E S I G N - E L E M E N T S */
 
-/* *** Potential Fonts ***
+/* *** Fonts ***
 
-The Nautigal
-Cinzel
-Tangerine
-Nothing You Could Do */
+    H1: Cormorant Unicase
+    Body: Heebo
+*/
 
 
 /* *** Old Color Palette ***
@@ -30,7 +29,7 @@ Nothing You Could Do */
 * {
     text-align: center;
     margin: 0 0;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-size: 20px;
 }
 
@@ -160,7 +159,7 @@ i.fab.fa-pagelines {
 /* M A I N - S E C T I O N S */
 
 h1 {
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Cormorant Unicase', serif;
     font-size: 38px;
     text-align: center;
     padding: 130px 0px 5px 0px;
