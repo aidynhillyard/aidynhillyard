@@ -61,7 +61,7 @@ div {
     text-align: right;
     font-size: 20px;
     /* Adjust this number to change shaded height of nav links */
-    height: 6.425vh;
+    height: 6vh;
     margin: 0px 25px;
     display: none;
 }
@@ -72,13 +72,20 @@ nav {
     align-items: center;
 }
 
+#hamburger-link {
+    text-decoration: none;
+}
+
+
 /* Inside Nav Grid are: 1. Icon Holder, 2. Hamburger Icon, 3. #just-the-links */
 .nav-grid {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     align-items: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 #icon-holder {
@@ -87,8 +94,26 @@ nav {
     grid-row: 1 / 3;
 }
 
+#hamburger-holder {
+    background-color: rgba(0, 0, 0, 0);
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+i.fas.fa-bars {
+    padding: 0px 15px;
+    color: white;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    align-items: center;
+    padding: 0px 22px;
+}
+
 #full-nav-bar {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     width: 100%;
     z-index: 2;
@@ -97,6 +122,8 @@ nav {
 }
 
 #just-the-links {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -109,23 +136,11 @@ li {
     list-style-type: none;
 }
 
-i.fas.fa-bars {
-    /* padding: 0px 15px;
-    margin: 0px 10px 0px 0px; */
-    color: white;
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-    /* justify-items: end; */
-    
-}
-
-#hamburger-link {
-    text-decoration: none;
-}
-
 i.fab.fa-pagelines {
     font-size: 52px;
-    padding: 20px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding: 0px 20px;
 }
 
 /* M A I N - S E C T I O N S */
