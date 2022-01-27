@@ -1,5 +1,7 @@
 # Project Overview
 
+A mobile-first, responsive portfolio website featuring my bio, skills, projects, and contact info.
+
 ## Project Schedule
 
 |  Day | Deliverable | Status
@@ -22,9 +24,13 @@ Link To Site  | Things I Like and Might Want to Incorporate |
 | [https://www.lianapenn.com/](https://www.lianapenn.com/) | abstract image as full width header, translucent nav bar, abstract icon, footer section
 | [http://jkeohan.com/](http://jkeohan.com/) | "what people have said" section
 
+---
+
 ## Project Description
 
-My portfolio will feature these sections: about me, skills, projects, and contact me. About Me: This will contain my name and full brand statement. Skills: Skills will be divided into sections (Front-End, Back-End, and Equity), and will have an icon for each section and will display in text format.  Projects will have placeholder images that turn to an opaque background color at hoverover.  MVP for projects section is grid display with responsive design; Post-MVP is carousel.  Contact me will have a link to my email but not a full form.  Design style will include: 1. full-width image for top banner, 2. minimalistic style for all other sections (few images, 1-3 colors), 3. conversational tone of text sections.
+My portfolio will feature these sections: about me, skills, projects, and contact me. About Me: This will contain my name and full brand statement. Skills: Skills will be divided into sections (Front-End, Back-End, and Equity), and will have an icon for each section and will display in text format.  Projects will have placeholder images that turn to an opaque background color at hoverover.  MVP for projects section is grid display with responsive design.  Contact me will have a link to my email but not a full form.  Design style will include: 1. full-width image for top banner, 2. minimalistic style for all other sections (few images, 1-3 colors), 3. conversational tone of text sections.
+
+---
 
 ## Wireframes
 
@@ -32,10 +38,11 @@ My portfolio will feature these sections: about me, skills, projects, and contac
 - [Tablet](https://i.imgur.com/iONiVGt.jpg)
 - [Desktop](https://i.imgur.com/ARjLVoI.jpg)
 
+---
+
 ## Time/Priority Matrix 
 
 [Link](https://i.imgur.com/wR1JeSD.jpg)
-
 
 ### MVP/PostMVP
 
@@ -54,6 +61,8 @@ My portfolio will feature these sections: about me, skills, projects, and contac
 - Interesting shapes between divs
 - Carousel for projects
 - Make own logo
+
+---
 
 ## Functional Components
 
@@ -74,14 +83,18 @@ My portfolio will feature these sections: about me, skills, projects, and contac
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Project Animations on hover | M | 3hr | 4hr |
-| Interesting shapes between divs | L | 3hr | hr |
+| Interesting shapes between divs | L | 3hr | 4hr |
 | Bootstrap | H | 4hr | 0hr |
-| Make Own Logo | L | 4hr | 2hr |
-| Total | H | 17hrs| hrs |
+| Make Own Logo | L | 4hr | 4hr |
+| Total | H | 17hrs| 12hrs |
+
+---
 
 ## Additional Libraries
  - FontAwesome: used for hamburger menu and icons for Skills Section
  - Social Icons by Torleif Halseth: [link](https://codepen.io/thalseth/pen/saqIj). I tried using the regular Font Awesome library but could not get the icons to display. Somehow, using the direct HMTL from this CodePen (with my own CSS) worked.
+
+---
 
 ## Code Snippet
 
