@@ -4,7 +4,7 @@ A mobile-first, responsive portfolio website featuring bio, skills, projects, an
 
 ## Project Image Preview
 
-
+![preview image of website](https://images2.imgbox.com/de/53/PUtsAamN_o.png)
 
 ## Project Schedule
 
