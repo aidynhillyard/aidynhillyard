@@ -40,7 +40,6 @@ h1 {}
     text-align: center;
     margin: 0 0;
     font-family: 'Quicksand', sans-serif;
-    /* font-size: 20px; */
 }
 
 #logo-placeholder {
@@ -84,7 +83,7 @@ div {
     text-align: right;
     font-size: 1em;
     /* Adjust this number to change shaded height of nav links */
-    height: 6vh;
+    height: 6.4vh;
     margin: 0px 25px;
     display: none;
 }
@@ -186,7 +185,8 @@ h3 {
 }
 
 .narrow {
-    padding: 20px 100px;
+    padding: 0px 100px;
+    padding-top: 2vh;
 }
 
 ul {
@@ -211,8 +211,14 @@ ul {
 
 /* About Me Image */
 
-#small-succulent {
-    position: bottom;
+.small-succulent-top {
+    vertical-align: bottom;
+    padding-top: 3vh;
+}
+
+.small-succulent-bottom {
+    vertical-align: bottom;
+    padding-bottom: 3vh;
 }
 
 /* A B O U T - M E - S E C T I O N */
@@ -220,12 +226,12 @@ ul {
 #about-me-section {
     padding-top: 45vh;
     position: relative;
-    z-index:-2;
+    z-index:-1;
 }
 
 .brand-statement {
     padding-top: 2vh;
-    padding-bottom: 3vh;
+    /* padding-bottom: 3vh; */
 }
 
 #quote {
@@ -236,8 +242,6 @@ ul {
 
 #skills-section {
     background-color: #2A504C;
-    padding-top: 9vh;
-    padding-bottom: 5vh;
 }
 
 .skill-heading {
@@ -318,8 +322,14 @@ i.fas.fa-universal-access {
 /* P R O J E C T S - S E C T I O N */
 
 #projects-section {
-    padding-top: 9vh;
-    padding-bottom: 3vh;
+}
+
+.project-text {
+    padding-top: 2vh;
+}
+
+.project-space {
+    padding-top: 5vh;
 }
 
 #img-project1 {
@@ -362,7 +372,6 @@ i.fas.fa-universal-access {
 
 #contact-me-section {
     background-color: #2A504C;
-    padding-top: 9vh;
     padding-bottom: 5vh;
 }
 
