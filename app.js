@@ -14,6 +14,17 @@ $('.list-nav.-links').on('click', hamburgerMenuClick);
 
 
 // *************
+// Show/Hide Div
+// *************
+
+$(document).ready(function (){
+    $("#click-me").click(function (){
+        $("#quote").toggle()
+    });
+});
+
+
+// *************
 // Smooth Scroll
 // *************
 

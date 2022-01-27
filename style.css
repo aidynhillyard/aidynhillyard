@@ -99,7 +99,6 @@ nav {
     text-decoration: none;
 }
 
-
 /* Inside Nav Grid are: 1. Icon Holder, 2. Hamburger Icon, 3. #just-the-links */
 .nav-grid {
     background-color: rgba(0, 0, 0, 0);
@@ -209,6 +208,55 @@ ul {
     padding: 5px 0px 0px 0px;
 }
 
+/* I M A G E - I N S I D E - D I V S */
+
+/* About Me Image */
+
+#under-about-me {
+    display: inline-block;
+    background-color: #1A3534;
+    width: 100%;
+    margin: -2vh;
+}
+
+#under-about-me.span {
+    display: block;
+    background-color: #2A504C;
+}
+
+.succulent {
+    display: inline-block;
+    margin: -1vh;
+}
+
+/* Skills Image */
+
+#under-skills {
+    display: inline-block;
+    background-color: #2A504C;
+    width: 100%;
+    margin: -2vh;
+}
+
+#under-skills.span {
+    display: block;
+    background-color: #1A3534;
+}
+
+/* Projects Image */
+
+#under-projects {
+    display: inline-block;
+    background-color: #1A3534;
+    width: 100%;
+    margin: -2vh;
+}
+
+#under-about-me.span {
+    display: block;
+    background-color: #2A504C;
+}
+
 /* A B O U T - M E - S E C T I O N */
 
 #about-me-section {
@@ -217,14 +265,18 @@ ul {
 
 .brand-statement {
     padding-top: 2vh;
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
+}
+
+#quote {
+    display: none;
 }
 
 /* S K I L L S - S E C T I O N */
 
 #skills-section {
     background-color: #2A504C;
-    padding-top: 5vh;
+    padding-top: 9vh;
     padding-bottom: 5vh;
 }
 
@@ -306,8 +358,8 @@ i.fas.fa-universal-access {
 /* P R O J E C T S - S E C T I O N */
 
 #projects-section {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 9vh;
+    padding-bottom: 3vh;
 }
 
 #img-project1 {
@@ -350,8 +402,8 @@ i.fas.fa-universal-access {
 
 #contact-me-section {
     background-color: #2A504C;
-    padding-top: 5vh;
-    padding-bottom: 6vh;
+    padding-top: 9vh;
+    padding-bottom: 5vh;
 }
 
 .contact-me {
