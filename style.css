@@ -211,55 +211,16 @@ ul {
 
 /* About Me Image */
 
-#under-about-me {
-    display: inline-block;
-    background-color: #1A3534;
-    width: 100%;
-    margin: -2vh;
-}
-
-#under-about-me.span {
-    display: block;
-    background-color: #2A504C;
-}
-
-.succulent {
-    display: inline-block;
-    margin: -1vh;
-}
-
-/* Skills Image */
-
-#under-skills {
-    display: inline-block;
-    background-color: #2A504C;
-    width: 100%;
-    margin: -2vh;
-}
-
-#under-skills.span {
-    display: block;
-    background-color: #1A3534;
-}
-
-/* Projects Image */
-
-#under-projects {
-    display: inline-block;
-    background-color: #1A3534;
-    width: 100%;
-    margin: -2vh;
-}
-
-#under-about-me.span {
-    display: block;
-    background-color: #2A504C;
+#small-succulent {
+    position: bottom;
 }
 
 /* A B O U T - M E - S E C T I O N */
 
 #about-me-section {
     padding-top: 45vh;
+    position: relative;
+    z-index:-2;
 }
 
 .brand-statement {
