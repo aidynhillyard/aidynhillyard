@@ -224,6 +224,10 @@ ul {
 
 /* A B O U T - M E - S E C T I O N */
 
+#avatar {
+    padding-bottom: 2vh;
+}
+
 #about-me-section {
     padding-top: 45vh;
     position: relative;
