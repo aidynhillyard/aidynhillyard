@@ -169,7 +169,7 @@ h1 {
     font-family: 'Cormorant Unicase', serif;
     font-size: 1.9em;
     text-align: center;
-    padding: 130px 0px 5px 0px;
+    padding-top: 16vh;
 }
 
 h2 {
@@ -204,7 +204,7 @@ ul {
 }
 
 #one-line-brand {
-    padding: 5px 0px 0px 0px;
+    padding-top: 1vh;
 }
 
 /* I M A G E - I N S I D E - D I V S */

@@ -1,6 +1,10 @@
 # Project Overview
 
-A mobile-first, responsive portfolio website featuring my bio, skills, projects, and contact info.
+A mobile-first, responsive portfolio website featuring bio, skills, projects, and contact info.
+
+## Project Image Preview
+
+
 
 ## Project Schedule
 
@@ -77,7 +81,7 @@ My portfolio will feature these sections: about me, skills, projects, and contac
 | Skill Icons | H | 2hrs| 1hr | 
 | Responsive | H | 3hr | 2hr |
 | Social Media Icons | L | 1hr |  1hr |
-| Total | H | 19hrs| 16.5hrs |
+| Total | H | 17hrs| 16.5hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -85,8 +89,9 @@ My portfolio will feature these sections: about me, skills, projects, and contac
 | Project Animations on hover | M | 3hr | 4hr |
 | Interesting shapes between divs | L | 3hr | 4hr |
 | Bootstrap | H | 4hr | 0hr |
+| Custom Avatar | M | 1hr | 2hr |
 | Make Own Logo | L | 4hr | 4hr |
-| Total | H | 17hrs| 12hrs |
+| Total | H | 15hrs| 14hrs |
 
 ---
 
