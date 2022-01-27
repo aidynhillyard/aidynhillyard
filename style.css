@@ -55,7 +55,7 @@ div {
 
 .succulent {
     position: relative;
-    top: 40px;
+    top: 4vh;
 }
 
 /* T I T L E - A N D - N A V I G A T I O N - B A R */
@@ -111,7 +111,7 @@ nav {
 }
 
 #icon-holder {
-    height: 8vh;
+    height: 6vh;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
@@ -126,8 +126,7 @@ nav {
 }
 
 i.fas.fa-bars {
-    padding: 0px 15px;
-    color: white;
+    color: #99B095;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
     align-items: center;
@@ -158,11 +157,11 @@ li {
     list-style-type: none;
 }
 
-i.fab.fa-pagelines {
+#logo {
     font-size: 2.6em;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    padding: 0px 20px;
+    padding: 0px 8px;
 }
 
 /* M A I N - S E C T I O N S */
