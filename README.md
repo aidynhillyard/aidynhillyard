@@ -11,6 +11,8 @@
 |Day 4 (Thurs., Jan. 27)| Final Touches | In Progress
 |Day 5 (Fri., Jan. 28)| Present | Incomplete
 
+---
+
 ## Project Research
 
 Link To Site  | Things I Like and Might Want to Incorporate | 
