@@ -403,6 +403,10 @@ footer {
     padding-bottom: 4vh;
 }
 
+#footer-text {
+    margin: 0px 30px;
+}
+
 /* Social Media Icons */
 
 #social-media-icons {

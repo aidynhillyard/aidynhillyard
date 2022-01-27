@@ -13,15 +13,15 @@ const hamburgerMenuClick = function(event) {
 $('.list-nav.-links').on('click', hamburgerMenuClick);
 
 
-// *************
-// Show/Hide Div
-// *************
+// *************************************************
+// Show/Hide Div (for eventual Testimonials Section)
+// *************************************************
 
-$(document).ready(function (){
-    $("#click-me").click(function (){
-        $("#quote").toggle()
-    });
-});
+// $(document).ready(function (){
+//     $("#click-me").click(function (){
+//         $("#quote").toggle()
+//     });
+// });
 
 
 // *************
