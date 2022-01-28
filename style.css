@@ -63,7 +63,7 @@ div {
     background-image: 
         linear-gradient(rgba(
         0, 0, 0, 0.5), rgba(
-        0, 0, 0, 0.5)), url('https://images2.imgbox.com/64/0a/bdtifdin_o.png');
+        0, 0, 0, 0.5)), url('/images/succulentblurheader.png');
     background-size: cover;
     background-position: center;
     position: absolute;
