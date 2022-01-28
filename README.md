@@ -14,7 +14,7 @@ A mobile-first, responsive portfolio website featuring bio, skills, projects, an
 |Day 1 (Mon., Jan. 24)| Wireframes / Priority Matrix / Timeline | Complete
 |Day 2 (Tues., Jan. 25)| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 3 (Wed., Jan. 26)| MVP & Bug Fixes | Complete
-|Day 4 (Thurs., Jan. 27)| Final Touches | In Progress
+|Day 4 (Thurs., Jan. 27)| Final Touches | Complete
 |Day 5 (Fri., Jan. 28)| Present | Incomplete
 
 ---
@@ -172,9 +172,6 @@ I used this guide from StackOverflow (from users Ajay and Khaled Al-Ansari) to s
 
 ### Case 5: Hamburger Nav Area
 When I ran into difficulty with getting my hamburger nav to expand vertically, I received brainstorming and bug-squashing help from Matt Powell and Taylor Polli Overturf.  Matt helped me figure out how to move my links to accomplish the styling I needed, and Taylor introduced me to the "viewport height" styling, which I implemented in other sections.
-
-### Case 6: Jquery Hide/Show Overlay
-I used this StackOverflow link to test jquery show/hide [link](https://stackoverflow.com/questions/15722997/jquery-mouseover-image-overlay/15724797), but I used hover instead of mouseover and also used both jquery documentation to explore the hide/show methods: [link](https://api.jquery.com/show/) and W3 Schools' example of the hover method: [link](https://www.w3schools.com/jquery/jquery_events.asp).  I also received guidance from Nathaniel Stack re: `.offset` and how to position the overlay using the x,y coordinates.
 
 ### Case 7: Font Size From Px to Em
 I followed this guide that Lauren Colvin linked in Slack to change the font size from px to em: [link](https://andy-carter.com/blog/using-scalable-css-units-for-font-sizes)
