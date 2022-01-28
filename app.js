@@ -1,5 +1,4 @@
 $(()=>{
-console.log("test");
 
 // Clicking the hamburger icon toggles the link menubar
 
