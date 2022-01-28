@@ -64,7 +64,6 @@ div {
         0, 0, 0, 0.7)), url('/images/header.png');
     background-size: cover;
     background-position: center;
-    position: absolute;
     width: 100%;
     height: 40vh;
     color: white;
@@ -207,11 +206,10 @@ ul {
     padding-top: 1vh;
     text-align: center;
     font-size: 1.2em;
+    padding: 0px 20px;
 }
 
 /* S U C C U L E N T - I M A G E */
-
-/* About Me Image */
 
 .small-succulent-top {
     vertical-align: bottom;
@@ -230,7 +228,7 @@ ul {
 }
 
 #about-me-section {
-    padding-top: 45vh;
+    padding-top: 5vh;
     position: relative;
     z-index:-1;
 }
@@ -325,9 +323,6 @@ i.fas.fa-universal-access {
 }
 
 /* P R O J E C T S - S E C T I O N */
-
-#projects-section {
-}
 
 .project-text {
     padding-top: 2vh;
