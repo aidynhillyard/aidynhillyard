@@ -173,8 +173,8 @@ I used this guide from StackOverflow (from users Ajay and Khaled Al-Ansari) to s
 ### Case 5: Hamburger Nav Area
 When I ran into difficulty with getting my hamburger nav to expand vertically, I received brainstorming and bug-squashing help from Matt Powell and Taylor Polli Overturf.  Matt helped me figure out how to move my links to accomplish the styling I needed, and Taylor introduced me to the "viewport height" styling, which I implemented in other sections.
 
-### Case 7: Font Size From Px to Em
+### Case 6: Font Size From Px to Em
 I followed this guide that Lauren Colvin linked in Slack to change the font size from px to em: [link](https://andy-carter.com/blog/using-scalable-css-units-for-font-sizes)
 
-### Case 8: Smooth Scrolling to a Div
+### Case 7: Smooth Scrolling to a Div
 I added jquery `.animate` to implement smooth scrolling using this guide from StackOverflow, answered by "Steve," edited by "melutovich": [link](https://stackoverflow.com/questions/6677035/scroll-to-an-element-with-jquery)
