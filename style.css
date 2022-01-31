@@ -209,6 +209,17 @@ ul {
     padding: 0px 20px;
 }
 
+#about-me-header {
+    padding-bottom: 1vh;
+}
+
+#pronouns {
+    font-size: 1em;
+    color: #AFC5AF;
+    padding-top: 0vh;
+    padding-bottom: 2vh;
+}
+
 /* S U C C U L E N T - I M A G E */
 
 .small-succulent-top {
