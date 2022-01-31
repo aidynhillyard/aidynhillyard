@@ -15,7 +15,7 @@ A mobile-first, responsive portfolio website featuring bio, skills, projects, an
 |Day 2 (Tues., Jan. 25)| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 3 (Wed., Jan. 26)| MVP & Bug Fixes | Complete
 |Day 4 (Thurs., Jan. 27)| Final Touches | Complete
-|Day 5 (Fri., Jan. 28)| Present | Incomplete
+|Day 5 (Fri., Jan. 28)| Present | Complete
 
 ---
 
@@ -32,7 +32,7 @@ Link To Site  | Things I Like and Might Want to Incorporate |
 
 ## Project Description
 
-My portfolio will feature these sections: about me, skills, projects, and contact me. About Me: This will contain my name and full brand statement. Skills: Skills will be divided into sections (Front-End, Back-End, and Equity), and will have an icon for each section and will display in text format.  Projects will have placeholder images that turn to an opaque background color at hoverover.  MVP for projects section is grid display with responsive design.  Contact me will have a link to my email but not a full form.  Design style will include: 1. full-width image for top banner, 2. minimalistic style for all other sections (few images, 1-3 colors), 3. conversational tone of text sections.
+My portfolio features these sections: about me, skills, projects, and contact me. About Me: Contains my name and full brand statement. Skills: Divided into sections (Front-End, Back-End, and Equity), with an icon for each section and skills displayed in text format.  Projects: Contains placeholder images with hoverover effect.  MVP for projects section is grid display with responsive design.  Contact Me: Contains a link to my email but not a full form.  Design style includes: 1. full-width image for top banner, 2. minimalistic style for all other sections (few images, 1-3 colors), 3. conversational tone of text sections.
 
 ---
 
@@ -61,9 +61,8 @@ My portfolio will feature these sections: about me, skills, projects, and contac
 
 #### PostMVP 
 
-- Animation for project placeholders
+- Animation/effect for project placeholders
 - Interesting shapes between divs
-- Carousel for projects
 - Make own logo
 
 ---
@@ -101,9 +100,7 @@ My portfolio will feature these sections: about me, skills, projects, and contac
 
 ---
 
-## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+## Code Snippet 
 
 ```
 // *************
