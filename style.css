@@ -61,7 +61,12 @@ div {
 }
 
 .link:hover {
+    color: white;
     text-decoration: underline;
+}
+
+.link:after {
+    color: white;
 }
 
 /* T I T L E - A N D - N A V I G A T I O N - B A R */
