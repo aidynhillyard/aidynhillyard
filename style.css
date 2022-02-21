@@ -55,6 +55,15 @@ div {
     top: 4vh;
 }
 
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
 /* T I T L E - A N D - N A V I G A T I O N - B A R */
 
 #home-section {
@@ -423,16 +432,11 @@ footer {
     padding-bottom: 3vh;
 }
 
-.fa-github {
-    padding: 0px 20px;
+.img-icons {
+    height: 3vh;
+    padding: 0vh 3vh;
+    filter: invert(100%) sepia(0%) saturate(6698%) hue-rotate(358deg) brightness(108%) contrast(102%);
 }
-.fa-linkedin {
-    padding: 0px 20px;
-}
-.fa-envelope {
-    padding: 0px 20px;
-}
-
 
 #github-link {
     color: white;
