@@ -61,7 +61,7 @@ div {
 }
 
 .link:hover {
-    color: white;
+    color: #AFC5AF;
     text-decoration: underline;
 }
 
@@ -319,6 +319,7 @@ li.skills-list {
 
 #idi:hover {
     color: #AFC5AF;
+    text-decoration: underline;
 }
 
 /* Icons for Skills Section */
