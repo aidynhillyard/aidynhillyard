@@ -309,16 +309,6 @@ li.skills-list {
     background-color: #152827;
 }
 
-#idi {
-    color: white;
-    text-decoration: none;
-}
-
-#idi:hover {
-    color: #AFC5AF;
-    text-decoration: underline;
-}
-
 /* Icons for Skills Section */
 
 i.fas.fa-code {
