@@ -47,12 +47,12 @@ div {
 }
 
 .link {
-    color: white;
-    text-decoration: none;
+    color: #AFC5AF;
+    text-decoration: underline;
 }
 
 .link:hover {
-    color: #AFC5AF;
+    color: #97b497;
     text-decoration: underline;
 }
 
@@ -176,15 +176,21 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: #AFC5AF;
 }
 
 h3 {
     text-align: center;
-    font-size: 1.2em;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    font-size: 1.5em;
+    padding: 3vh 0vh;
+}
+
+h4 {
+    color: #d3dfd3;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 3vh 0vh 1vh 0vh;
 }
 
 .narrow {
@@ -346,7 +352,7 @@ i.fas.fa-universal-access {
 }
 
 .project-space {
-    padding: 3vh;
+    padding: 4vh;
 }
 
 #img-project1 {
@@ -386,6 +392,11 @@ i.fas.fa-universal-access {
     border-style: solid;
     border-width: 2px;
     border-color: #16cdd0;
+}
+
+.sub-header {
+    color: #AFC5AF;
+    text-decoration: underline;
 }
 
 /* C O N T A C T - M E - S E C T I O N */
