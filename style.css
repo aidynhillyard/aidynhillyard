@@ -9,6 +9,7 @@
 
     Darkest: Charleston Green: #1C2C2E
     Dark: Dark Jungle Green: #152827
+    Middle: No Name Given: #1A3534
     Meduium: Dark Slate Gray: #326059
     Light: Cambridge Blue: #AFC5AF
     Rosy Brown: #B18981 
@@ -200,6 +201,20 @@ h4 {
 
 ul {
     padding: 0;
+}
+
+#succulent-separater {
+    height: 14vh;
+}
+
+.separater-l2d-div {
+    background-image: linear-gradient(#1A3534, #152827);
+    padding: 5vh;
+}
+
+.separater-d2l-div {
+    background-image: linear-gradient(#152827, #1A3534);
+    padding: 5vh;
 }
 
 /* H O M E - S E C T I O N */
